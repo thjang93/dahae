@@ -1,0 +1,44 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumpenscript.css");
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar-default { /*배경색*/
+	background: #FE5155;
+	border: #000000;
+}
+
+.navbar-default .navbar-nav > li > a { /*?*/
+	color: #000000;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+goods-spec-img {
+	width: 300;
+	height: 300;
+}
+
+
+
+
+
+
+

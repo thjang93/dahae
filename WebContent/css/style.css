@@ -1,0 +1,131 @@
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumpenscript.css");
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+body{
+	font-family: ‘Nanum Pen Script’, serif ;
+}
+
+body, table, div, p { 
+	font-family: 'Iropke Batang', serif; 
+}
+
+<!-- 웹 브라우저에게 서체 이름과 다운받을 위치를 알려줌.-->
+@font-face { 
+	font-family: 'Iropke Batang';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/public/fonts/IropkeBatangM/IropkeBatangM.eot');
+	src: url('/public/fonts/IropkeBatangM/IropkeBatangM.eot?#iefix') format('embedded-opentype'),
+	url('/public/fonts/IropkeBatangM/IropkeBatangM.woff') format('woff'),
+	url('/public/fonts/IropkeBatangM/IropkeBatangM.ttf') format('truetype');
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #bbbbbb;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.navbar-default { /*배경색*/
+	background: #FE5155;
+	border: #000000;
+}
+
+.navbar-default .navbar-nav > li > a { /*네비게이션 기본 색상*/
+	color: #000000;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+goods-spec-img {
+	width: 300px;
+	height: 300px;
+}
+
+.table > thead {
+	background-color: #FE5155;
+}
+.table > thead > tr > th{
+	text-agilgn:center;
+} 
+.table-hover > tbody > tr:hover{
+	background-color:#e7e7e7;
+}
+.table > tbody > tr >td{
+	text-align: center;
+}
+.table > tbody > tr >#title{
+	text-align: left;
+}
+div > #paging{
+	text-align: center;
+}
+.hit{
+	animation-name: bling;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+}
+
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#wrapper {
+	position:relative;
+    min-height:100%;
+}
+#header {
+	height:auto;
+}
+#main {
+	padding-bottom:8%;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:auto;   
+}
+
+.thumbnail { 
+	padding-top:0;
+	padding-left:0;
+	width: 260px; 
+	max-height: 400px;
+	min-height: 400px; 
+	overflow: hidden; 
+} 
+
+
+.thumbnail-wrappper { 
+	padding-top:0;
+	padding-left:0;
+	width: 230px; 
+	max-height: 230px;
+	min-height: 230px; 
+	overflow: hidden; 
+} 
+
+pre {
+	font-family: 'Iropke Batang', serif; 
+	background-color: transparent;
+	border:hidden
+}
+

@@ -1,0 +1,59 @@
+/* Designed by  */
+
+h2 {
+	color : #5F91CB;
+}
+a {
+	
+}
+a:hover {
+	
+}
+body {
+
+}
+
+table {
+	background-color: #E7E5E5;
+	border: 1pt solid #E2E2E2;
+}
+
+table input{
+    border-radius : 5px;
+}
+
+textarea {
+	
+}
+/* 입력 폼 */
+.input {
+	/* border-bottom : 1px dotted red; */
+}
+/* 버튼 */
+.inputbutton {
+    border-width: 4px;
+    color: black;
+    background-color: #BDDAF3;
+}
+
+
+
+th {
+    border: 1px solid #0100FF;
+	padding: 4px 5px;
+	background-color: #5F91CB;
+	color: white;
+
+}
+
+td {
+	border: 1px solid #0100FF;
+	padding: 4px 5px;
+	background-color: #D9E5FF;
+	color: black;
+}
+/* 글자 강조 */
+span {
+    font-size: 1.1em;
+	color: red;
+}
